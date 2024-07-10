@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Square"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lockview"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:cropToPadding="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/angle" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_margin="@dimen/_20sdp"
+        android:textSize="@dimen/_12ssp"
+        android:hint="Select Function"
+        app:boxStrokeColor="@color/orange"
+        app:hintTextColor="@color/orange"
+        app:endIconTint="@color/black"
+        android:elevation="@dimen/_20sdp"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textSize="@dimen/_12ssp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/angle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Enter the angle"
+        android:inputType="number|numberDecimal"
+        android:padding="@dimen/_8sdp"
+        android:textColor="#473E3E"
+        android:textColorHint="#A9A9A9"
+        android:textSize="@dimen/_14sdp" />
+
+    <Button
+        android:id="@+id/anglebtn"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:backgroundTint="@color/orange"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:text="press here"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_14sdp"
+        app:cornerRadius="18dp" />
+
+    <TextView
+        android:id="@+id/AngleValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:gravity="center_horizontal"
+        android:textColor="#474141"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</ScrollView>

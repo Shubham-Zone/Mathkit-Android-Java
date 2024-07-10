@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/_14sdp"
+    android:paddingStart="@dimen/_3sdp"
+    android:paddingEnd="@dimen/_3sdp"
+    android:paddingBottom="2dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lockview"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:cropToPadding="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/mainscreen_banner" />
+
+
+        <EditText
+            android:id="@+id/enterno"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Enter the no"
+            android:inputType="number|numberDecimal"
+            android:padding="@dimen/_8sdp"
+            android:textColor="#473E3E"
+            android:textColorHint="#473E3E"
+            android:textSize="@dimen/_14sdp" />
+
+        <Button
+            android:id="@+id/presshere"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_42sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:backgroundTint="@color/orange"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            android:text="press here"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_14sdp"
+            app:cornerRadius="18dp" />
+
+        <TextView
+            android:id="@+id/Result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:gravity="center_horizontal"
+            android:textColor="#474141"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MathKit</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="function_prompt">Select Trigonometric Function</string>
+    <string name="Terms_and_consitions">TERMS AND CONDITIONS
+
+Welcome to our Basic Mathematics App! This app is designed to help users learn and practice basic math skills such as square, root, cube, trigonometric angles, and multiplication tables. By using this app, you agree to the following terms and conditions:
+
+Age Restriction: This app is intended for users of all ages, including children. However, children under the age of 13 should use this app under the supervision of an adult.
+
+Content Warnings: This app may contain content related to mathematics, which some users may find challenging or difficult. Users should exercise caution and seek additional help if necessary.
+
+User Conduct: Users are prohibited from using this app for any illegal or unauthorized purpose. Users must not violate any applicable laws, regulations, or third-party rights while using this app.
+
+Personal Information: We do not collect any personal information from users of this app. We do not share any user information with third parties.
+
+App Usage: This app is provided "as is" and without any warranty or guarantee of any kind. We do not guarantee that this app will be free from errors, interruptions, or defects.
+
+Ownership: We own all rights to the content, design, and code of this app. Users are not allowed to copy, modify, or distribute any part of this app without our prior written consent.
+
+Changes to Terms and Conditions: We reserve the right to modify these terms and conditions at any time without notice. Your continued use of this app after such changes will constitute your acceptance of the modified terms and conditions.
+
+By using our Basic Mathematics App, you acknowledge that you have read, understood, and agreed to these terms and conditions. If you do not agree to these terms and conditions, you should not use this app.</string>
+
+
+    <string-array name="function_array">
+        <item>sin</item>
+        <item>cos</item>
+        <item>tan</item>
+        <item>cosec</item>
+        <item>sec</item>
+        <item>cot</item>
+    </string-array>
+
+</resources>
